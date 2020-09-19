@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="register">Register</button>
+    <button id="forgotPassword">Forgot Password</button>
+    <script>
+      document.getElementById("register").addEventListener("click", () => {
+        location.href = "./register.html";
+      });
+      document
+        .getElementById("forgotPassword")
+        .addEventListener("click", () => {
+          location.href = "./PasswordChange.html";
+        });
+    </script>
+  </body>
+</html>
